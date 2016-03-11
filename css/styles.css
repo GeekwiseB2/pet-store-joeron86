@@ -17,7 +17,18 @@
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
   color: #80BEEA;
+}
 
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #f17779;
+  background-color: transparent;
+  border-bottom: 3px solid #f17779;
+}
+
+.nav-pills>li>a {
+  border-radius: 0px;
 }
 
 .jumbotron {
@@ -44,8 +55,13 @@
    font-size: 25px;
  }
 
-.thumbnail {
-margin-left: -10px;
+ .thumb {
+  padding-right: 10px;
+  padding-left: 10px;
+ }
+
+.thumbnail .caption {
+  padding: 9px 9px 0px 9px;
 }
 
 .thumbnail h3 {
@@ -83,7 +99,6 @@ margin-left: -10px;
 
 footer {
   background-color: #231f20;
-  height: 180px;
   padding-top: 25px;
 }
 
@@ -94,21 +109,34 @@ footer .logo {
 .footer ul {
   list-style-type: none;
   font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.address li{
-  color: #bfc0c1
+.no-margin {
+  margin: 0;
+}
+
+.address {
+  color: #bfc0c1;
+  border-right: .5px solid #bfc0c1;
+  border-left: .5px solid #bfc0c1;
 }
 
 .copyright {
   text-align: center;
-  margin-bottom: 100px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .social a {
   color: #bfc0c1;
 }
 
+
 li a:hover {
   color: #F17779;
+  text-decoration: none;
 }
+
+/* CONTACT PAGE */
